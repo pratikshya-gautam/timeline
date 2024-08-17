@@ -1,6 +1,8 @@
 import React from "react";
 import { css } from "@emotion/react";
 import { TimelineItem } from "./types";
+import { getRandomMutedColor } from "../shared/get-muted-color";
+import { convertADtoBS } from "../shared/conver-ad-to-bs";
 
 const timelineStyles = css`
   --color: rgba(30, 30, 30);
@@ -171,37 +173,62 @@ const timelineStyles = css`
   }
 `;
 
-function generateReference(reference: string | string[] | []| undefined) {
-  if (typeof reference === 'string') {
-    return (<div className="reference">Reference: <a href={reference} target="_blank">{reference}</a></div>);
+function generateReference(reference: string | string[] | [] | undefined) {
+  if (typeof reference === "string") {
+    return (
+      <div className="reference">
+        Reference:{" "}
+        <a href={reference} target="_blank">
+          {reference}
+        </a>
+      </div>
+    );
   } else if (Array.isArray(reference)) {
-    return reference.map(ref => (<div className="reference">Reference: <a href={ref} target="_blank">{ref}</a></div>))
+    return reference.map((ref) => (
+      <div className="reference">
+        Reference:{" "}
+        <a href={ref} target="_blank">
+          {ref}
+        </a>
+      </div>
+    ));
   } else {
-    return '';
+    return "";
   }
 }
 
-const TimelineCard = ({ date, title, descr, eventList, color }: TimelineItem) => (
-  <li
-    css={css`
-      --accent-color: ${color};
-    `}
-  >
-    <div className="date">{date}</div>
-    <div className="title"><strong>{title}</strong></div>
-    <div className="descr">{descr}</div>
-    <div style={{padding: '10px'}}>
-    {eventList && eventList.map((list)=>(
-      <>
-       <div className="event-title">{list.event}</div>
-       <div className="event-description">{list.description}</div>
-       {generateReference(list.reference)}
-       <br/>
-       </>
-    ))}
-    </div>
-  </li>
-);
+const TimelineCard = ({ date, title, descr, eventList }: TimelineItem) => {
+  const color = getRandomMutedColor();
+  const bsDate = convertADtoBS(date);
+  return (
+    <li
+      css={css`
+        --accent-color: ${color};
+      `}
+    >
+       <div className="date">
+            <span>
+                {date}  {date !== bsDate && <em className="text-muted">| {bsDate} BS</em>}
+            </span>
+        </div>
+      <div className="title">
+        <strong>{title}</strong>
+      </div>
+      <div className="descr">{descr}</div>
+      <div style={{ padding: "10px" }}>
+        {eventList &&
+          eventList.map((list) => (
+            <>
+              <div className="event-title">{list.event}</div>
+              <div className="event-description">{list.description}</div>
+              {generateReference(list.reference)}
+              <br />
+            </>
+          ))}
+      </div>
+    </li>
+  );
+};
 
 export interface TimelineProps {
   data: TimelineItem[];
@@ -212,9 +239,9 @@ const Timeline: React.FC<TimelineProps> = ({ data, title }) => (
   <div css={timelineStyles}>
     <h1>{title}</h1>
     <ul>
-      {data.map((item, index) => (
+      {data.map((item) => (
         <TimelineCard
-          key={index}
+          key={item.title}
           date={item.date}
           title={item.title}
           descr={item.descr}

@@ -42,30 +42,7 @@
         "reference": "https://www.buddhahistory.org/lumbini"
       }
     ]
-  },
-  {
-    "date": "14th century",
-    "title": "Construction of Boudhanath Stupa",
-    "descr": "Boudhanath Stupa, one of the largest Buddhist stupas in the world, was constructed.",
-    "color": "#FFD700",
-    "eventList": [
-      {
-        "event": "Initial Construction",
-        "description": "The stupa was built shortly after the passing of the Buddha, around the 14th century.",
-        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
-      },
-      {
-        "event": "Tibetan Refugees",
-        "description": "Following the 1959 Tibetan uprising, many Tibetan refugees settled around Boudhanath, leading to the construction of over 50 gompas (Buddhist monasteries).",
-        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
-      },
-      {
-        "event": "UNESCO World Heritage Site",
-        "description": "In 1979, Boudhanath Stupa was designated as a UNESCO World Heritage Site.",
-        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
-      }
-    ]
-  },  
+  }, 
   {
     "date": "400 AD",
     "title": "King Manadeva I",
