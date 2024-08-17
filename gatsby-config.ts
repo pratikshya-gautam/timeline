@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Timeline Site`,
-    siteUrl: `https://github.com/pratikshya-gautam`,
+    siteUrl: `https://github.com/pratikshya-gautam/timeline`,
     author: `https://pratikshya.is-a.dev`,
 
   },
