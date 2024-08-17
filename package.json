@@ -38,5 +38,10 @@
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "typescript": "^5.3.3"
+  },
+  "overrides": {
+    "gatsby-plugin-mdx": {
+      "@mdx-js/react": "3.0.1"
+    }
   }
 }
