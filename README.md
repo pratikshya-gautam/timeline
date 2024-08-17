@@ -1,49 +1,49 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Historic Event Timeline
 
-## 🚀 Quick start
+Welcome to the **Historic Event Timeline** project! This TypeScript application lets you plot historical events on an interactive timeline, helping you visualize and compare significant events across different periods.
 
-1.  **Create a Gatsby site.**
+## Features
+- **Interactive Timeline**: Visualize and interact with historical events on a timeline plot.
+- **Customizable Views**: Filter and adjust timelines by categories or time ranges.
+- **Detailed Annotations**: View detailed information for each event.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## Getting Started
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/pratikshya-gautam/timeline
+   ```
+2. **Navigate to the Project Directory**
+   ```bash
+   cd historic-event-timeline
+   ```
+3. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+4. **Run the Application**
+   ```bash
+   npm start
+   ```
 
-2.  **Start developing.**
+## Updating Data
 
-    Navigate into your new site’s directory and start it up.
+To update or add new historical events:
+1. **Fork the Repository** and clone your fork.
+2. **Make Changes** to the data files or code as needed.
+3. **Test Your Changes** locally to ensure everything works.
+4. **Submit a Pull Request** with your updates for review.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Contributing
 
-3.  **Open the code and start customizing!**
+Contributions are welcome! If you have suggestions or improvements:
+1. **Fork the Repository** and make your changes.
+2. **Submit a Pull Request** with a description of your changes.
 
-    Your site is now running at http://localhost:8000!
+For detailed contribution guidelines, see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+## License
 
-4.  **Learn more**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+For more information, visit our [project page](https://github.com/pratikshya-gautam/timeline).
