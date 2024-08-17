@@ -9,19 +9,32 @@ p {
 }
 
 .event-title {
-    font-size: 0.1.1rem;
+    font-size: 1.1rem; /* Fixed typo: Changed 0.1.1rem to 1.1rem */
     font-weight: bold;
     margin-bottom: 10px;
+    overflow-wrap: break-word; /* Ensure long words or URLs break and wrap */
+    word-break: break-word; /* Break long words to prevent overflow */
+    hyphens: auto; /* Optionally hyphenate words for better readability */
 }
+
 .event-description {
-    font-size: 0.1.1rem;
+    font-size: 1.1rem; /* Fixed typo: Changed 0.1.1rem to 1.1rem */
     font-weight: 300;
     margin-bottom: 20px;
+    overflow-wrap: break-word; /* Ensure long words or URLs break and wrap */
+    word-break: break-word; /* Break long words to prevent overflow */
+    hyphens: auto; /* Optionally hyphenate words for better readability */
 }
+
 .reference {
-    font-size: 16px;
+    font-size: 1rem; /* Updated for consistency; adjust as needed */
+    overflow-wrap: break-word; /* Ensure long words or URLs break and wrap */
+    word-break: break-word; /* Break long words to prevent overflow */
 }
+
 .reference a {
     color: #1a0dab;
     text-decoration: none;
+    overflow-wrap: break-word; /* Ensure long URLs break and wrap */
+    word-break: break-word; /* Break long URLs to prevent overflow */
 }
