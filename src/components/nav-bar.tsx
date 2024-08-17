@@ -10,7 +10,7 @@ const MyNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/nepalies-history">Nepalies History</Nav.Link>
+            <Nav.Link href="/timeline/nepalies-history">Nepalies History</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
