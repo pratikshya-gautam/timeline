@@ -44,6 +44,29 @@
     ]
   },
   {
+    "date": "14th century",
+    "title": "Construction of Boudhanath Stupa",
+    "descr": "Boudhanath Stupa, one of the largest Buddhist stupas in the world, was constructed.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Initial Construction",
+        "description": "The stupa was built shortly after the passing of the Buddha, around the 14th century.",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      },
+      {
+        "event": "Tibetan Refugees",
+        "description": "Following the 1959 Tibetan uprising, many Tibetan refugees settled around Boudhanath, leading to the construction of over 50 gompas (Buddhist monasteries).",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      },
+      {
+        "event": "UNESCO World Heritage Site",
+        "description": "In 1979, Boudhanath Stupa was designated as a UNESCO World Heritage Site.",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      }
+    ]
+  },  
+  {
     "date": "400 AD",
     "title": "King Manadeva I",
     "descr": "The founder of the Licchavi dynasty in the Kathmandu Valley. His reign marked the beginning of the Licchavi era.",
@@ -74,6 +97,19 @@
       }
     ]
   },
+  {
+    "date": "5th to 9th century CE",
+    "title": "Licchavi Script",
+    "descr": "Used during the Licchavi period, evolved from Brahmi.",
+    "color": "#A4F2C6",
+    "eventList": [
+      {
+        "event": "Usage",
+        "description": "Licchavi script was used during the Licchavi period.",
+        "reference": "https://en.wikipedia.org/wiki/Licchavi_(kingdom)"
+      }
+    ]
+  },  
   {
     "date": "500 AD",
     "title": "King Dharampala",
@@ -209,6 +245,19 @@
     ]
   },
   {
+    "date": "5th to 9th century CE",
+    "title": "Licchavi Script",
+    "descr": "Used during the Licchavi period, evolved from Brahmi.",
+    "color": "#A4F2C6",
+    "eventList": [
+      {
+        "event": "Usage",
+        "description": "Licchavi script was used during the Licchavi period.",
+        "reference": "https://en.wikipedia.org/wiki/Licchavi_(kingdom)"
+      }
+    ]
+  },  
+  {
     "date": "1024-1040 AD",
     "title": "King Laxmikama Deva",
     "descr": "Known for building the Laksmi Vihara and introducing the worship of the Kumari.",
@@ -226,6 +275,19 @@
       }
     ]
   },
+  {
+    "date": "10th century CE",
+    "title": "Bhujimol Script",
+    "descr": "An early form of the Nepal script, used for writing Nepal Bhasa.",
+    "color": "#A4F2C6",
+    "eventList": [
+      {
+        "event": "Usage",
+        "description": "Bhujimol script was used for writing Nepal Bhasa.",
+        "reference": "https://en.wikipedia.org/wiki/Bhujimol_script"
+      }
+    ]
+  },  
   {
     "date": "1083-1085 AD",
     "title": "King Vamadeva",
@@ -253,18 +315,111 @@
     ]
   },
   {
-    "date": "1201 AD",
-    "title": "King Ari Malla",
-    "descr": "Founder of the Malla dynasty.",
+    "date": "1146-01-01 AD",
+    "title": "Reign of King Narendra Deva",
+    "descr": "King Narendra Deva ruled over the Kathmandu Valley.",
     "color": "#C4E1C1",
     "eventList": [
       {
-        "event": "Establishment of the Malla Dynasty",
-        "description": "Ari Malla established the Malla dynasty in the Kathmandu Valley.",
-        "reference": "https://en.wikipedia.org/wiki/Malla_dynasty_(Nepal)"
+        "event": "Ascension to the Throne",
+        "description": "King Narendra Deva ascended to the throne in 1146 AD.",
+        "reference": "https://en.wikipedia.org/wiki/Narendra_Deva"
       }
     ]
   },
+  {
+    "date": "1200 AD",
+    "title": "Reign of King Arimalla",
+    "descr": "King Arimalla was the first monarch of the Malla dynasty in Kathmandu.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Arimalla ascended to the throne in 1200 AD, marking the beginning of the Malla dynasty.",
+        "reference": "https://en.wikipedia.org/wiki/Arimalla"
+      }
+    ]
+  },
+  {
+    "date": "1245 AD",
+    "title": "Reign of King Abhaya Malla",
+    "descr": "King Abhaya Malla ruled over the Kathmandu Valley.",
+    "color": "#A4C6F2",
+    "eventList": [
+      {
+        "event": "Coronation",
+        "description": "Abhaya Malla ascended to the throne of the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Abhaya_Malla"
+      },
+      {
+        "event": "Cultural Contributions",
+        "description": "King Abhaya Malla was known for his contributions to the cultural and architectural development of the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Abhaya_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1255-06-07 AD",
+    "title": "1255 Nepal Earthquake",
+    "descr": "A devastating earthquake struck the Kathmandu Valley.",
+    "color": "#F2C6A4",
+    "eventList": [
+      {
+        "event": "Main Earthquake",
+        "description": "The earthquake caused extensive damage in the Kathmandu Valley and resulted in significant loss of life.",
+        "reference": "https://en.wikipedia.org/wiki/1255_Nepal_earthquake"
+      },
+      {
+        "event": "Casualties",
+        "description": "Approximately one-third of the population of Kathmandu was killed, including King Abhaya Malla.",
+        "reference": "https://en.wikipedia.org/wiki/1255_Nepal_earthquake"
+      }
+    ]
+  },
+  {
+    "date": "1349 AD",
+    "title": "Invasion of Kathmandu Valley by Sultan Shamsuddin Ilyas Shah",
+    "descr": "Sultan Shamsuddin Ilyas Shah of Bengal invaded the Kathmandu Valley.",
+    "color": "#D4A4F2",
+    "eventList": [
+      {
+        "event": "Invasion",
+        "description": "Sultan Shamsuddin Ilyas Shah led an invasion into the Kathmandu Valley, causing significant destruction.",
+        "reference": "https://en.wikipedia.org/wiki/History_of_Nepal"
+      },
+      {
+        "event": "Aftermath",
+        "description": "The invasion led to a period of instability and rebuilding in the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/History_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1389 AD",
+    "title": "Gopalarajavamsavali",
+    "descr": "A historical chronicle of Nepal.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Creation",
+        "description": "Gopalarajavamsavali was written as a historical chronicle of Nepal.",
+        "reference": "https://en.wikipedia.org/wiki/Gopalarajavamsavali"
+      }
+    ]
+  },  
+  {
+    "date": "14th century CE",
+    "title": "Prachalit Script",
+    "descr": "A widely used script for writing Nepal Bhasa, still in use today.",
+    "color": "#A4F2C6",
+    "eventList": [
+      {
+        "event": "Development",
+        "description": "Prachalit script was developed and is still in use today.",
+        "reference": "https://en.wikipedia.org/wiki/Prachalit_script"
+      }
+    ]
+  },  
   {
     "date": "1382-1395 AD",
     "title": "King Jayasthiti Malla",
@@ -272,27 +427,156 @@
     "color": "#E0A3B4",
     "eventList": [
       {
-        "event": "Introduction of Legal and Social Code",
-        "description": "Jayasthiti Malla introduced a legal and social code influenced by Hindu principles.",
-        "reference": "https://www.britannica.com/event/Malla-era"
+        "event": "Coronation",
+        "description": "Jayasthiti Malla was crowned as the king of the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Jayasthiti_Malla"
+      },
+      {
+        "event": "Social Reforms",
+        "description": "King Jayasthiti Malla implemented significant social and administrative reforms, including the codification of laws and the introduction of a caste system.",
+        "reference": "https://en.wikipedia.org/wiki/Jayasthiti_Malla"
       }
     ]
   },
   {
-    "date": "1428-1482 AD",
-    "title": "King Yaksha Malla",
-    "descr": "Known for dividing the Kathmandu Valley into four kingdoms.",
+    "date": "1428 AD",
+    "title": "Reign of King Yaksha Malla",
+    "descr": "King Yaksha Malla ruled over the Kathmandu Valley and divided it among his sons.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Yaksha Malla ascended to the throne in 1428 and ruled over the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Yaksha_Malla"
+      },
+      {
+        "event": "Division of the Valley",
+        "description": "Upon his death, King Yaksha Malla divided the Kathmandu Valley among his sons, leading to the formation of the three kingdoms: Kathmandu, Bhaktapur, and Patan.",
+        "reference": "https://en.wikipedia.org/wiki/Yaksha_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1482-01-01 AD",
+    "title": "Division of Kathmandu Valley",
+    "descr": "The Kathmandu Valley was divided into three separate kingdoms: Kathmandu, Bhaktapur, and Patan.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Formation of Three Kingdoms",
+        "description": "Following the death of King Yaksha Malla, the Kathmandu Valley was divided into three kingdoms: Kathmandu, Bhaktapur, and Patan.",
+        "reference": "https://en.wikipedia.org/wiki/Yaksha_Malla"
+      }
+    ]
+  },
+  {
+    "date": "14th century AD",
+    "title": "Swayambhu Purana",
+    "descr": "A Buddhist scripture detailing the origin of the Kathmandu Valley.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Compilation",
+        "description": "Swayambhu Purana was compiled to detail the origin of the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Swayambhu_Purana"
+      }
+    ]
+  },  
+  {
+    "date": "14th century",
+    "title": "Construction of Boudhanath Stupa",
+    "descr": "Boudhanath Stupa, one of the largest Buddhist stupas in the world, was constructed.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Initial Construction",
+        "description": "The stupa was built shortly after the passing of the Buddha, around the 14th century.",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      },
+      {
+        "event": "Tibetan Refugees",
+        "description": "Following the 1959 Tibetan uprising, many Tibetan refugees settled around Boudhanath, leading to the construction of over 50 gompas (Buddhist monasteries).",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      },
+      {
+        "event": "UNESCO World Heritage Site",
+        "description": "In 1979, Boudhanath Stupa was designated as a UNESCO World Heritage Site.",
+        "reference": "https://en.wikipedia.org/wiki/Boudhanath"
+      }
+    ]
+  },
+  {
+    "date": "1505 AD",
+    "title": "Reign of King Ratna Malla",
+    "descr": "King Ratna Malla ruled over Kathmandu and established the Malla dynasty.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Ratna Malla ascended to the throne of Kathmandu in 1505, marking the beginning of the Malla dynasty.",
+        "reference": "https://en.wikipedia.org/wiki/Ratna_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1515-01-01 AD",
+    "title": "Reign of King Surya Malla",
+    "descr": "King Surya Malla ruled over Bhaktapur.",
     "color": "#F2C6A4",
     "eventList": [
       {
-        "event": "Division of the Valley",
-        "description": "Yaksha Malla divided the Kathmandu Valley into four kingdoms: Kantipur, Patan, Bhaktapur, and Banepa.",
-        "reference": "https://en.wikipedia.org/wiki/List_of_Malla_Kings_of_Nepal"
+        "event": "Ascension to the Throne",
+        "description": "King Surya Malla ascended to the throne of Bhaktapur in 1515.",
+        "reference": "https://en.wikipedia.org/wiki/Malla_dynasty_(Nepal)"
       }
     ]
   },
   {
-    "date": "1641-1674 AD",
+    "date": "1549 AD",
+    "title": "Reign of King Mahendra Malla",
+    "descr": "King Mahendra Malla ruled over Kathmandu and contributed to the cultural and architectural development of the city.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Mahendra Malla ascended to the throne of Kathmandu in 1549.",
+        "reference": "https://en.wikipedia.org/wiki/Mahendra_Malla"
+      },
+      {
+        "event": "Construction of Temples",
+        "description": "King Mahendra Malla is credited with the construction of several temples, including the Mahendreswor Temple.",
+        "reference": "https://en.wikipedia.org/wiki/Mahendra_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1606-1637 AD",
+    "title": "Reign of King Lakshmi Narasimha Malla",
+    "descr": "King Lakshmi Narasimha Malla ruled over Kathmandu.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Lakshmi Narasimha Malla ascended to the throne of Kathmandu in 1606.",
+        "reference": "https://en.wikipedia.org/wiki/Lakshmi_Narasimha_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1620-01-01 AD",
+    "title": "Construction of the Taleju Temple in Bhaktapur",
+    "descr": "The Taleju Temple in Bhaktapur was constructed during this period.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Temple Construction",
+        "description": "The Taleju Temple in Bhaktapur was built by King Jagat Prakash Malla.",
+        "reference": "https://en.wikipedia.org/wiki/Taleju_Temple"
+      }
+    ]
+  },
+  {
+    "date": "1637-1674 AD",
     "title": "King Pratap Malla",
     "descr": "Known for his contributions to art and architecture.",
     "color": "#B3D4F6",
@@ -301,6 +585,58 @@
         "event": "Construction of Temples and Palaces",
         "description": "Pratap Malla built many temples and palaces, including the Rani Pokhari and the Hanuman Dhoka Palace.",
         "reference": "https://visitmynepal.com/malla-dynasty"
+      }
+    ]
+  },
+  {
+    "date": "1637 AD",
+    "title": "Reign of King Pratap Malla",
+    "descr": "King Pratap Malla began his reign over Kathmandu.",
+    "color": "#F2C6A4",
+    "eventList": [
+      {
+        "event": "Ascension to the Throne",
+        "description": "King Pratap Malla ascended to the throne of Kathmandu in 1637.",
+        "reference": "https://en.wikipedia.org/wiki/Pratap_Malla"
+      }
+    ]
+  },
+  {
+    "date": "1649 AD",
+    "title": "Construction of the Rani Pokhari",
+    "descr": "King Pratap Malla constructed the Rani Pokhari in memory of his son.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "Construction of Rani Pokhari",
+        "description": "Rani Pokhari, a historic artificial pond in Kathmandu, was constructed by King Pratap Malla in 1649.",
+        "reference": "https://en.wikipedia.org/wiki/Rani_Pokhari"
+      }
+    ]
+  },
+  {
+    "date": "16th century AD",
+    "title": "Bhasajyotish",
+    "descr": "A treatise on astrology and grammar, written by Siddhidas Mahaju.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Writing",
+        "description": "Siddhidas Mahaju wrote Bhasajyotish, a treatise on astrology and grammar.",
+        "reference": "https://en.wikipedia.org/wiki/Siddhidas_Mahaju"
+      }
+    ]
+  },
+  {
+    "date": "1770-01-01 AD",
+    "title": "Hanuman Dhoka Palace Extended",
+    "descr": "A complex of structures with the royal palace of the Malla kings.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "Expansion",
+        "description": "The palace complex was expanded significantly during the reign of King Prithvi Narayan Shah.",
+        "reference": "https://en.wikipedia.org/wiki/Hanuman_Dhoka"
       }
     ]
   },
@@ -332,6 +668,89 @@
         "event": "Establishment of Kathmandu as Capital",
         "description": "He established Kathmandu as the capital of Nepal after conquering the Malla kingdoms.",
         "reference": "https://www.britannica.com/biography/Prithvi-Narayan-Shah"
+      }
+    ]
+  },
+  {
+    "date": "1744 AD",
+    "title": "Attack on Nuwakot",
+    "descr": "Prithvi Narayan Shah's first major attack during his unification campaign.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Capture of Nuwakot",
+        "description": "Prithvi Narayan Shah captured Nuwakot, which was strategically important for controlling trade routes.",
+        "reference": "https://en.wikipedia.org/wiki/Unification_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1762 AD",
+    "title": "Attack on Makwanpur",
+    "descr": "Prithvi Narayan Shah's forces attacked and captured Makwanpur.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Capture of Makwanpur",
+        "description": "The capture of Makwanpur was crucial for surrounding the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Unification_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1763 AD",
+    "title": "Attack on Dhulikhel",
+    "descr": "Prithvi Narayan Shah's forces attacked and captured Dhulikhel.",
+    "color": "#F2C6A4",
+    "eventList": [
+      {
+        "event": "Capture of Dhulikhel",
+        "description": "The capture of Dhulikhel further tightened the blockade around the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Unification_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1764 AD",
+    "title": "Battle of Kirtipur",
+    "descr": "A significant battle during the unification campaign.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "First Assault on Kirtipur",
+        "description": "Prithvi Narayan Shah's first assault on Kirtipur was repelled, resulting in heavy casualties.",
+        "reference": "https://en.wikipedia.org/wiki/Battle_of_Kirtipur"
+      },
+      {
+        "event": "Second Assault on Kirtipur",
+        "description": "A second assault led to the eventual capture of Kirtipur, marking a turning point in the unification campaign.",
+        "reference": "https://en.wikipedia.org/wiki/Battle_of_Kirtipur"
+      }
+    ]
+  },
+  {
+    "date": "1768 AD",
+    "title": "Capture of Kathmandu",
+    "descr": "Prithvi Narayan Shah's forces captured Kathmandu, the capital of Nepal.",
+    "color": "#E3B5D8",
+    "eventList": [
+      {
+        "event": "Capture of Kathmandu",
+        "description": "The capture of Kathmandu was a significant milestone in the unification of Nepal.",
+        "reference": "https://en.wikipedia.org/wiki/Unification_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1769 AD",
+    "title": "Capture of Patan",
+    "descr": "Prithvi Narayan Shah's forces captured Patan, another major city in the Kathmandu Valley.",
+    "color": "#D6F4E1",
+    "eventList": [
+      {
+        "event": "Capture of Patan",
+        "description": "The capture of Patan further consolidated Prithvi Narayan Shah's control over the Kathmandu Valley.",
+        "reference": "https://en.wikipedia.org/wiki/Unification_of_Nepal"
       }
     ]
   },
@@ -388,6 +807,32 @@
     ]
   },
   {
+    "date": "1832 AD",
+    "title": "Construction of Dharahara",
+    "descr": "The original Dharahara tower was constructed.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Commissioned by Queen Lalit Tripurasundari",
+        "description": "The tower was built by Prime Minister Bhimsen Thapa under the commission of Queen Lalit Tripurasundari.",
+        "reference": "https://en.wikipedia.org/wiki/Dharahara"
+      }
+    ]
+  },
+  {
+    "date": "1846 AD",
+    "title": "Kot Massacre",
+    "descr": "Jung Bahadur Rana consolidated power by eliminating his rivals in the royal court.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Beginning of Rana Autocracy",
+        "description": "The Kot Massacre marked the beginning of the Rana autocracy, which would last over a century.",
+        "reference": "https://en.wikipedia.org/wiki/Kot_massacre"
+      }
+    ]
+  },
+  {
     "date": "1847-1881 AD",
     "title": "King Surendra Bikram Shah",
     "descr": "A figurehead king during the Rana rule.",
@@ -401,6 +846,45 @@
     ]
   },
   {
+    "date": "1850-1851 AD",
+    "title": "Visit of Jung Bahadur Rana to Europe",
+    "descr": "Jung Bahadur Rana, the first Prime Minister of Nepal from the Rana dynasty, visited Britain and France.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "First South Asian Ruler to Visit Europe",
+        "description": "Jung Bahadur Rana's visit influenced the modernization of Nepal and the consolidation of the Rana regime.",
+        "reference": "https://en.wikipedia.org/wiki/Jung_Bahadur_Rana"
+      }
+    ]
+  },
+  {
+    "date": "19th century AD",
+    "title": "Mool Shankar",
+    "descr": "A translation of the Ramayana into Nepali by Bhanubhakta Acharya.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Translation",
+        "description": "Bhanubhakta Acharya translated the Ramayana into Nepali, known as Mool Shankar.",
+        "reference": "https://en.wikipedia.org/wiki/Bhanubhakta_Acharya"
+      }
+    ]
+  },  
+  {
+    "date": "19th century CE",
+    "title": "Devanagari Script",
+    "descr": "The modern script used for writing Nepali and other languages in Nepal.",
+    "color": "#A4F2C6",
+    "eventList": [
+      {
+        "event": "Adoption",
+        "description": "Devanagari script was adopted for writing Nepali and other languages.",
+        "reference": "https://en.wikipedia.org/wiki/Devanagari"
+      }
+    ]
+  },  
+  {
     "date": "1881-1911 AD",
     "title": "King Prithvi Bir Bikram Shah",
     "descr": "Known for his efforts to modernize Nepal.",
@@ -410,6 +894,151 @@
         "event": "Modernization Efforts",
         "description": "Prithvi Bir Bikram Shah initiated several modernization efforts in Nepal.",
         "reference": "https://en.wikipedia.org/wiki/Prithvi_Bir_Bikram_Shah"
+      }
+    ]
+  },
+  {
+    "date": "1885 AD",
+    "title": "Rise of Bir Shumsher Rana",
+    "descr": "Bir Shumsher Rana took control of the government after assassinating several of his cousins.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "Violent Power Shift",
+        "description": "Bir Shumsher Rana's rise marked another violent power shift within the Rana family.",
+        "reference": "https://en.wikipedia.org/wiki/Bir_Shumsher_Jang_Bahadur_Rana"
+      }
+    ]
+  },
+  {
+    "date": "1901 AD",
+    "title": "Establishment of the Durbar High School",
+    "descr": "The establishment of the Durbar High School marked the beginning of modern education in Nepal.",
+    "color": "#E3B5D8",
+    "eventList": [
+      {
+        "event": "Modern Education",
+        "description": "The Durbar High School was established by the Rana regime.",
+        "reference": "https://en.wikipedia.org/wiki/Durbar_High_School"
+      }
+    ]
+  },
+  {
+    "date": "1901-05-06 AD",
+    "title": "Gorkhapatra",
+    "descr": "The first issue of Gorkhapatra, Nepal's oldest newspaper.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "First Issue",
+        "description": "Gorkhapatra was founded on May 6, 1901, by Dev Shumsher Jung Bahadur Rana.",
+        "reference": "https://en.wikipedia.org/wiki/Gorkhapatra"
+      }
+    ]
+  },
+  {
+    "date": "1903-1904 AD",
+    "title": "Treaty with Tibet",
+    "descr": "Nepal signed a treaty with Tibet, ending hostilities and establishing trade relations.",
+    "color": "#D6F4E1",
+    "eventList": [
+      {
+        "event": "Trade Relations",
+        "description": "The treaty with Tibet ended hostilities and established trade relations between the two countries.",
+        "reference": "https://en.wikipedia.org/wiki/Nepal%E2%80%93Tibet_War"
+      }
+    ]
+  },
+  {
+    "date": "1908 AD",
+    "title": "Construction of Singha Durbar",
+    "descr": "The construction of Singha Durbar, also known as the Lion's Palace, was completed.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Commissioned by Chandra Shumsher JBR",
+        "description": "Singha Durbar was built by Prime Minister Chandra Shumsher Jang Bahadur Rana. It was one of the largest and most lavish palaces in Asia at the time.",
+        "reference": "https://en.wikipedia.org/wiki/Singha_Durbar"
+      }
+    ]
+  },
+  {
+    "date": "1923 AD",
+    "title": "Treaty of Friendship between Nepal and Britain",
+    "descr": "This treaty recognized Nepal as an independent and sovereign nation by the British Empire.",
+    "color": "#C9D8E8",
+    "eventList": [
+      {
+        "event": "Recognition of Sovereignty",
+        "description": "The Treaty of Friendship recognized Nepal as an independent and sovereign nation.",
+        "reference": "https://en.wikipedia.org/wiki/Nepal%E2%80%93Britain_Treaty_of_1923"
+      }
+    ]
+  },
+  {
+    "date": "1932-01-01 AD",
+    "title": "First Currency Printed",
+    "descr": "The Nepalese rupee was introduced, replacing the silver mohar.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Introduction of Nepalese Rupee",
+        "description": "The Nepalese rupee was introduced in 1932, replacing the silver mohar at a rate of 2 mohar = 1 rupee.",
+        "reference": "https://en.wikipedia.org/wiki/Nepalese_rupee"
+      }
+    ]
+  },
+  {
+    "date": "1934-01-15 AD",
+    "title": "1934 Nepal-Bihar Earthquake",
+    "descr": "A devastating earthquake struck Nepal and the northern Bihar region of India.",
+    "color": "#FFCCCB",
+    "eventList": [
+      {
+        "event": "Main Earthquake",
+        "description": "A 8.0 magnitude earthquake struck, causing extensive damage in Kathmandu, Bhaktapur, and Patan.",
+        "reference": "https://en.wikipedia.org/wiki/1934_Nepal%E2%80%93Bihar_earthquake"
+      },
+      {
+        "event": "Casualties",
+        "description": "Approximately 10,700 people were killed in Nepal and 7,253 in India.",
+        "reference": "https://en.wikipedia.org/wiki/1934_Nepal%E2%80%93Bihar_earthquake"
+      },
+      {
+        "event": "Destruction",
+        "description": "Many historical buildings and temples were destroyed, including the Dharahara tower.",
+        "reference": "https://en.wikipedia.org/wiki/1934_Nepal%E2%80%93Bihar_earthquake"
+      }
+    ]
+  },
+  {
+    "date": "1934-01-16 AD",
+    "title": "Aftermath and Relief Efforts",
+    "descr": "The immediate aftermath and relief efforts following the earthquake.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Relief Efforts",
+        "description": "Juddha Shumsher Rana, the Prime Minister at the time, led the relief efforts and reconstruction.",
+        "reference": "https://en.wikipedia.org/wiki/Juddha_Shumsher_Jang_Bahadur_Rana"
+      },
+      {
+        "event": "Reconstruction",
+        "description": "Reconstruction efforts included rebuilding key infrastructure and historical sites.",
+        "reference": "https://en.wikipedia.org/wiki/Juddha_Shumsher_Jang_Bahadur_Rana"
+      }
+    ]
+  },
+  {
+    "date": "1947 AD",
+    "title": "Establishment of the Nepal Communist Party",
+    "descr": "The Nepal Communist Party was founded, introducing communist ideology into Nepali politics.",
+    "color": "#FFD700",
+    "eventList": [
+      {
+        "event": "Founding of the Party",
+        "description": "The Nepal Communist Party was founded, becoming influential in later decades.",
+        "reference": "https://en.wikipedia.org/wiki/Nepal_Communist_Party"
       }
     ]
   },
@@ -436,6 +1065,45 @@
         "event": "End of Rana Regime",
         "description": "King Tribhuvan's efforts led to the end of the Rana regime and the establishment of a democratic government.",
         "reference": "https://en.wikipedia.org/wiki/Tribhuvan_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1951-04-02 AD",
+    "title": "Radio Nepal",
+    "descr": "The establishment of Radio Nepal, the state-owned radio broadcasting organization.",
+    "color": "#F2C6A4",
+    "eventList": [
+      {
+        "event": "Establishment",
+        "description": "Radio Nepal was established on April 2, 1951.",
+        "reference": "https://en.wikipedia.org/wiki/Radio_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1953-05-29 AD",
+    "title": "First Ascent of Mount Everest",
+    "descr": "Sir Edmund Hillary and Tenzing Norgay became the first climbers to reach the summit of Mount Everest.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "Sir Edmund Hillary from New Zealand and Tenzing Norgay, a Sherpa of Nepal, successfully reached the summit of Mount Everest, the highest peak in the world.",
+        "reference": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+      }
+    ]
+  },
+  {
+    "date": "1955 AD",
+    "title": "Death of King Tribhuvan and Accession of King Mahendra",
+    "descr": "King Tribhuvan passed away and was succeeded by his son, King Mahendra.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Accession of King Mahendra",
+        "description": "King Mahendra played a significant role in shaping modern Nepal.",
+        "reference": "https://en.wikipedia.org/wiki/Mahendra_of_Nepal"
       }
     ]
   },
@@ -475,6 +1143,142 @@
         "event": "Introduction of Panchayat System",
         "description": "King Mahendra introduced the Panchayat system, a party-less political system.",
         "reference": "https://en.wikipedia.org/wiki/Mahendra_of_Nepal"
+      }
+    ]
+  },
+  {
+    "date": "1956-05-18 AD",
+    "title": "First Ascent of Mount Manaslu",
+    "descr": "The first successful ascent of Mount Manaslu, the eighth highest mountain in the world.",
+    "color": "#C4E1C1",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "A Japanese expedition led by Toshio Imanishi and Gyalzen Norbu Sherpa reached the summit of Mount Manaslu.",
+        "reference": "https://en.wikipedia.org/wiki/Manaslu"
+      }
+    ]
+  },
+  {
+    "date": "1960-05-13 AD",
+    "title": "First Ascent of Dhaulagiri",
+    "descr": "The first successful ascent of Dhaulagiri, the seventh highest mountain in the world.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "A Swiss-Austrian expedition led by Kurt Diemberger, Peter Diener, Ernst Forrer, Albin Schelbert, Nyima Dorje Sherpa, and Nawang Dorje Sherpa reached the summit of Dhaulagiri.",
+        "reference": "https://en.wikipedia.org/wiki/Dhaulagiri"
+      }
+    ]
+  },
+  {
+    "date": "1964-05-25 AD",
+    "title": "First Ascent of Mount Shishapangma",
+    "descr": "The first successful ascent of Mount Shishapangma, the fourteenth highest mountain in the world.",
+    "color": "#F2C6A4",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "A Chinese expedition led by Xu Jing reached the summit of Mount Shishapangma.",
+        "reference": "https://en.wikipedia.org/wiki/Shishapangma"
+      }
+    ]
+  },
+  {
+    "date": "1963-01-01 AD",
+    "title": "Narayanhiti Palace",
+    "descr": "The former royal palace of the monarchs of Nepal.",
+    "color": "#D6F4E1",
+    "eventList": [
+      {
+        "event": "Construction",
+        "description": "Built in 1963, it served as the residence and principal workplace of the reigning monarch.",
+        "reference": "https://en.wikipedia.org/wiki/Narayanhiti_Palace"
+      }
+    ]
+  },
+  {
+    "date": "1972 AD",
+    "title": "Death of King Mahendra and Accession of King Birendra",
+    "descr": "King Mahendra died, and his son, King Birendra, ascended to the throne.",
+    "color": "#E3B5D8",
+    "eventList": [
+      {
+        "event": "Accession of King Birendra",
+        "description": "King Birendra continued the Panchayat system but faced increasing demands for democracy.",
+        "reference": "https://en.wikipedia.org/wiki/Birendra_of_Nepal"
+      }
+    ]
+  },
+
+  {
+    "date": "1973-07-09 AD",
+    "title": "Fire at Singha Durbar",
+    "descr": "A massive fire broke out at Singha Durbar, causing extensive damage.",
+    "color": "#FFCCCB",
+    "eventList": [
+      {
+        "event": "Destruction by Fire",
+        "description": "The fire engulfed all three wings of the palace except the front-facing wing. Cannons were used to destroy the three wings to prevent the fire from spreading further.",
+        "reference": "https://en.wikipedia.org/wiki/Singha_Durbar"
+      },
+      {
+        "event": "Reconstruction",
+        "description": "After the fire, the entire area was rebuilt on the old foundation.",
+        "reference": "https://en.wikipedia.org/wiki/Singha_Durbar"
+      }
+    ]
+  },
+  {
+    "date": "1975-05-16 AD",
+    "title": "First Woman to Summit Everest",
+    "descr": "Junko Tabei from Japan became the first woman to reach the summit of Mount Everest.",
+    "color": "#E0A3B4",
+    "eventList": [
+      {
+        "event": "Pioneering Achievement",
+        "description": "Junko Tabei's successful ascent marked a significant milestone in mountaineering history.",
+        "reference": "https://en.wikipedia.org/wiki/Junko_Tabei"
+      }
+    ]
+  },
+  {
+    "date": "1979-05-03 AD",
+    "title": "First Ascent of Kangchenjunga",
+    "descr": "The first successful ascent of Kangchenjunga, the third highest mountain in the world.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "A British expedition led by Doug Scott and Joe Tasker reached the summit of Kangchenjunga.",
+        "reference": "https://en.wikipedia.org/wiki/Kangchenjunga"
+      }
+    ]
+  },
+  {
+    "date": "1983-05-12 AD",
+    "title": "First Ascent of Mount Cho Oyu",
+    "descr": "The first successful ascent of Mount Cho Oyu, the sixth highest mountain in the world.",
+    "color": "#E3B5D8",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "An Austrian expedition led by Herbert Tichy, Joseph Jöchler, and Pasang Dawa Lama reached the summit of Mount Cho Oyu.",
+        "reference": "https://en.wikipedia.org/wiki/Cho_Oyu"
+      }
+    ]
+  },
+  {
+    "date": "1990-10-16 AD",
+    "title": "First Ascent of Mount Makalu",
+    "descr": "The first successful ascent of Mount Makalu, the fifth highest mountain in the world.",
+    "color": "#D6F4E1",
+    "eventList": [
+      {
+        "event": "Historic Ascent",
+        "description": "A French expedition led by Jean Couzy and Lionel Terray reached the summit of Mount Makalu.",
+        "reference": "https://en.wikipedia.org/wiki/Makalu"
       }
     ]
   },
@@ -638,6 +1442,19 @@
         "event": "Additional Casualties",
         "description": "The aftershock resulted in over 100 additional deaths and nearly 1,900 injuries.",
         "reference": "https://www.britannica.com/topic/Nepal-earthquake-of-2015"
+      }
+    ]
+  },
+  {
+    "date": "2018-10 AD",
+    "title": "Reconstruction of Dharahara",
+    "descr": "Reconstruction of the Dharahara tower began.",
+    "color": "#B3D4F6",
+    "eventList": [
+      {
+        "event": "Reconstruction Efforts",
+        "description": "The reconstruction project aimed to restore Dharahara to its former glory with modern earthquake-resistant technology.",
+        "reference": "https://en.wikipedia.org/wiki/Dharahara"
       }
     ]
   }
