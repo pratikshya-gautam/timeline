@@ -3,8 +3,9 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Timeline Site`,
-    siteUrl: `https://github.com/pratikshya-gautam/timeline`,
+    siteUrl: `https://github.com/pratikshya-gautam`,
     author: `https://pratikshya.is-a.dev`,
+    pathPrefix: '/timeline'
 
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
