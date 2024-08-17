@@ -171,6 +171,16 @@ const timelineStyles = css`
   }
 `;
 
+function generateReference(reference: string | string[] | []| undefined) {
+  if (typeof reference === 'string') {
+    return (<div className="reference">Reference: <a href={reference} target="_blank">{reference}</a></div>);
+  } else if (Array.isArray(reference)) {
+    return reference.map(ref => (<div className="reference">Reference: <a href={ref} target="_blank">{ref}</a></div>))
+  } else {
+    return '';
+  }
+}
+
 const TimelineCard = ({ date, title, descr, eventList, color }: TimelineItem) => (
   <li
     css={css`
@@ -185,7 +195,7 @@ const TimelineCard = ({ date, title, descr, eventList, color }: TimelineItem) =>
       <>
        <div className="event-title">{list.event}</div>
        <div className="event-description">{list.description}</div>
-       <div className="reference">Reference: <a href={list.reference} target="_blank">{list.reference}</a></div>
+       {generateReference(list.reference)}
        <br/>
        </>
     ))}
