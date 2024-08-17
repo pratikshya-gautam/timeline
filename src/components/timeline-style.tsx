@@ -11,6 +11,7 @@ const timelineStyles = css`
   --accent-color: #000; /* Default accent color, will be overridden */
 
   min-height: 100vh;
+
   display: grid;
   align-content: center;
   gap: 2rem;
@@ -25,7 +26,7 @@ const timelineStyles = css`
 
   ul {
     display: grid;
-    grid-template-columns: var(--line-w) 1fr;
+    grid-template-columns: 1fr;
     grid-auto-columns: max-content;
     column-gap: var(--col-gap);
     list-style: none;
