@@ -3,4 +3,9 @@ export interface TimelineItem {
     title: string;
     descr: string;
     color: string;
+    eventList?: {
+      event: string,
+      description: string,
+      reference: string
+    }[]
   }

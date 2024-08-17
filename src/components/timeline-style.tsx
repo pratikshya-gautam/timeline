@@ -171,15 +171,25 @@ const timelineStyles = css`
   }
 `;
 
-const TimelineCard = ({ date, title, descr, color }: TimelineItem) => (
+const TimelineCard = ({ date, title, descr, eventList, color }: TimelineItem) => (
   <li
     css={css`
       --accent-color: ${color};
     `}
   >
     <div className="date">{date}</div>
-    <div className="title">{title}</div>
+    <div className="title"><strong>{title}</strong></div>
     <div className="descr">{descr}</div>
+    <div style={{padding: '10px'}}>
+    {eventList && eventList.map((list)=>(
+      <>
+       <div className="event-title">{list.event}</div>
+       <div className="event-description">{list.description}</div>
+       <div className="reference">Reference: <a href={list.reference} target="_blank">{list.reference}</a></div>
+       <br/>
+       </>
+    ))}
+    </div>
   </li>
 );
 
@@ -199,6 +209,7 @@ const Timeline: React.FC<TimelineProps> = ({ data, title }) => (
           title={item.title}
           descr={item.descr}
           color={item.color}
+          eventList={item.eventList}
         />
       ))}
     </ul>
