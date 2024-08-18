@@ -19,6 +19,7 @@ import {
 } from '@mui/lab'
 import { getRandomMutedColor } from '../../shared/get-muted-color'
 import type { TimelineItem as TimelineData } from '../types'
+import EventCard from './event-card'
 
 interface TimelineComponentProps {
   data: TimelineData[]
@@ -70,7 +71,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = ({ data = [] }) => {
       <Container>
         <Timeline position={isSmallScreen ? 'left' : 'alternate'}>
           {data.map((event, index) => (
-            <TimelineItem id={`event-${index}`} key={index}>
+            <TimelineItem key={index}>
               {!isSmallScreen && (
                 <TimelineOppositeContent>
                   <Typography variant="body2" color="textSecondary">
@@ -83,26 +84,11 @@ const TimelineComponent: React.FC<TimelineComponentProps> = ({ data = [] }) => {
                 {index < data.length - 1 && <TimelineConnector />}
               </TimelineSeparator>
               <TimelineContent>
-                <Paper
-                  elevation={3}
-                  style={{ padding: '16px', borderRadius: '16px' }}
-                >
-                  <Typography variant="h6" component="h1">
-                    {event.title}
-                  </Typography>
-                  <Typography>{event.descr}</Typography>
-                  <Typography variant="body2" color="textSecondary">
-                    References:
-                  </Typography>
-                  <ul>
-                    {event.eventList &&
-                      event.eventList.map((item, idx) => (
-                        <li key={idx}>
-                          <Typography variant="body2">{item.event}</Typography>
-                        </li>
-                      ))}
-                  </ul>
-                </Paper>
+                <EventCard
+                  data={event}
+                  pointer={`event-${index}`}
+                  leftCard={index % 2 === 0}
+                />
               </TimelineContent>
             </TimelineItem>
           ))}
