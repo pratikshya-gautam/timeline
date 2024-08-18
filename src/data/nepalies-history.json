@@ -2,7 +2,7 @@
   {
     "date": "1000 BCE",
     "title": "Early Settlements and Cultures",
-    "descr": "Early human settlements in the Kathmandu Valley and surrounding areas. Evidence of early agriculture and trade.",
+    "descr": "The history of Nepal before the Common Era (BCE) is deeply intertwined with the early migrations and the development of indigenous cultures in the region. Archaeological evidence suggests that the Kathmandu Valley, the cultural and political heart of ancient Nepal, was settled as early as the Neolithic period. The Kiratas, an indigenous ethnic group, are among the earliest known inhabitants, believed to have migrated from the eastern Himalayas. They played a significant role in the region's early history, particularly through their warrior culture and animistic religious practices. By the late 1st millennium BCE, the influence of Indian civilization began to permeate Nepal, particularly with the spread of Buddhism and Hinduism, which laid the foundations for the region's spiritual and cultural development. This period also saw the establishment of early city-states and the development of trade routes linking Nepal with the Gangetic plains to the south and Tibet to the north, setting the stage for the region's historical evolution into the early Common Era.",
     "color": "#D0E0A3",
     "eventList": [
       {
@@ -14,6 +14,28 @@
         "event": "Agricultural Developments",
         "description": "Evidence of early agriculture, including rice cultivation and domestication of animals.",
         "reference": "https://www.nepalearlyagriculture.org"
+      }
+    ],
+    "references": [
+      {
+        "title": "Nepal: A Cultural and Historical Overview",
+        "author": "Peter M. G. Thakur",
+        "description": "This work offers an in-depth look at the cultural and historical development of Nepal, including its early inhabitants and the transition from pre-historic times to recorded history."
+      },
+      {
+        "title": "Ancient Nepal: Volume I",
+        "author": "Sylvain Levi",
+        "description": "Sylvain Levi’s seminal work provides a detailed exploration of Nepal's ancient history, focusing on the early settlements, cultures, and influences from neighboring regions."
+      },
+      {
+        "title": "Nepal Mandala: A Cultural Study of the Kathmandu Valley",
+        "author": "Mary Shepherd Slusser",
+        "description": "Mary Shepherd Slusser’s comprehensive study delves into the cultural and historical aspects of the Kathmandu Valley, providing valuable insights into its early development and significance."
+      },
+      {
+        "title": "Early History of Nepal: The Kiratas and Lichchhavis",
+        "author": "Mahesh C. Regmi",
+        "description": "This book covers the early history of Nepal, focusing on the Kirata and Lichchhavi periods, and offers a detailed look at the socio-political developments of ancient Nepal."
       }
     ]
   },
@@ -42,7 +64,7 @@
         "reference": "https://www.buddhahistory.org/lumbini"
       }
     ]
-  }, 
+  },
   {
     "date": "400 AD",
     "title": "King Manadeva I",
@@ -86,7 +108,7 @@
         "reference": "https://en.wikipedia.org/wiki/Licchavi_(kingdom)"
       }
     ]
-  },  
+  },
   {
     "date": "500 AD",
     "title": "King Dharampala",
@@ -233,7 +255,7 @@
         "reference": "https://en.wikipedia.org/wiki/Licchavi_(kingdom)"
       }
     ]
-  },  
+  },
   {
     "date": "1024-1040 AD",
     "title": "King Laxmikama Deva",
@@ -264,7 +286,7 @@
         "reference": "https://en.wikipedia.org/wiki/Bhujimol_script"
       }
     ]
-  },  
+  },
   {
     "date": "1083-1085 AD",
     "title": "King Vamadeva",
@@ -383,7 +405,7 @@
         "reference": "https://en.wikipedia.org/wiki/Gopalarajavamsavali"
       }
     ]
-  },  
+  },
   {
     "date": "14th century CE",
     "title": "Prachalit Script",
@@ -396,7 +418,7 @@
         "reference": "https://en.wikipedia.org/wiki/Prachalit_script"
       }
     ]
-  },  
+  },
   {
     "date": "1382-1395 AD",
     "title": "King Jayasthiti Malla",
@@ -458,7 +480,7 @@
         "reference": "https://en.wikipedia.org/wiki/Swayambhu_Purana"
       }
     ]
-  },  
+  },
   {
     "date": "14th century",
     "title": "Construction of Boudhanath Stupa",
@@ -847,7 +869,7 @@
         "reference": "https://en.wikipedia.org/wiki/Bhanubhakta_Acharya"
       }
     ]
-  },  
+  },
   {
     "date": "19th century CE",
     "title": "Devanagari Script",
@@ -860,7 +882,7 @@
         "reference": "https://en.wikipedia.org/wiki/Devanagari"
       }
     ]
-  },  
+  },
   {
     "date": "1881-1911 AD",
     "title": "King Prithvi Bir Bikram Shah",

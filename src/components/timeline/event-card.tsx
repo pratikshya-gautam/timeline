@@ -1,10 +1,12 @@
-import React, { SyntheticEvent, useState } from 'react'
+import React, { useState } from 'react'
 import { Card, Typography, Grid, Box, Snackbar, Alert } from '@mui/material'
 import LinkIcon from '@mui/icons-material/Link'
 import { IconButton } from '@mui/material'
 import { allStyles } from './styles'
 import ReferenceList from './refrences'
 import { TimelineItem } from '../types'
+import CollapsibleParagraph from './collapsible-paragraph'
+import ReferenceListV2 from './refrences-v2'
 
 function generateIdFromText(text: string) {
   return text
@@ -78,7 +80,7 @@ export default function EventCard({
                   <LinkIcon />
                 </IconButton>
               </Typography>
-              <Typography sx={allStyles.body}>{data.descr}</Typography>
+              <CollapsibleParagraph description={data.descr} />
             </Box>
           </Grid>
           <Grid item sm={1} justifySelf="center" alignSelf="center">
@@ -94,9 +96,13 @@ export default function EventCard({
             </Box>
           </Grid>
         </Grid>
-        <Box sx={{ padding: 2 }} id={pointer}>
-          <ReferenceList eventList={data.eventList} />
-        </Box>
+        {data.references ? (
+          <ReferenceListV2 references={data.references} />
+        ) : (
+          <Box sx={{ padding: 2 }} id={pointer}>
+            <ReferenceList eventList={data.eventList} />
+          </Box>
+        )}
       </Card>
     </>
   )
