@@ -1,5 +1,5 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import React from 'react'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const MyNavbar = () => {
   return (
@@ -10,12 +10,14 @@ const MyNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/timeline">Home</Nav.Link>
-            <Nav.Link href="/timeline/nepalies-history">Nepalies History</Nav.Link>
+            <Nav.Link href="/timeline/nepalies-history">
+              Nepalies History
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
-};
+  )
+}
 
-export default MyNavbar;
+export default MyNavbar
